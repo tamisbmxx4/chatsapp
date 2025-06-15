@@ -29,7 +29,7 @@ export default function Auth({ onLogin }) {
   return (
     <div className="auth-container">
       <form onSubmit={handleSubmit} className="auth-form">
-        <h2>{isRegister ? "Register" : "Login"}</h2>
+        <h2>{isRegister ? "Register" : "Login cici"}</h2>
         <input
           type="email"
           placeholder="Email"
